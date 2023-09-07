@@ -1,7 +1,8 @@
 # To enable with eureka client service registry
-spring:
-  application:
-    name: Config-Default
+# spring:
+#   application:
+#     name: Config-Default    we want the application name as it is.
+
 eureka:
   instance:
     prefer-ip-address: true
