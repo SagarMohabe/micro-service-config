@@ -1,4 +1,7 @@
 # To enable with eureka client service registry
+spring:
+  application:
+    name: Config-Default
 eureka:
   instance:
     prefer-ip-address: true
